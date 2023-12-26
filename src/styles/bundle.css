@@ -4,8 +4,3 @@
 
 @import "globals.css";
 
-@layer components {
-    .social-media-icons {
-        @apply h-6 w-6 fill-current text-gray-500 hover:text-black dark:text-gray-400 dark:hover:text-white;
-    }
-}

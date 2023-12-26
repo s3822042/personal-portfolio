@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 
 import { type NextPageProps } from '@/@types/global';
 import AboutWrapper from '@/modules/About/components/AboutWrapper.client';
-import ProjectList from '@/modules/Project/components/ProjectList'
+import ProjectList from '@/modules/Project/components/ProjectList';
 
 function AboutPage(props: NextPageProps) {
   const { searchParams } = props;

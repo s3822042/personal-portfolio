@@ -5,7 +5,7 @@
   "author": "Vo Thanh Luan <paulluanvothanh@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/s3822042/personal-portfolio.git"
+    "url": "git+https://github.com/s3822042/personal-portfolio.git"
   },
   "bugs": {
     "url": "https://github.com/s3822042/personal-portfolio/issues"
@@ -20,7 +20,7 @@
     "start": "next start",
     "prepare": "husky install",
     "lint": "tsc --noEmit && eslint src --ignore-pattern 'src/public' --max-warnings 0",
-    "lint:fix": "tsc --noEmit && eslint src --ignore-pattern 'src/public' --ignore-path .gitignore --ext .js,.ts,.tsx --fix"
+    "lint:fix": "tsc --noEmit && eslint src --ignore-pattern 'src/public' --fix"
   },
   "dependencies": {
     "mongodb": "^6.2.0",

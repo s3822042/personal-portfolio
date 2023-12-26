@@ -17,6 +17,7 @@ interface SocialMediaLinks {
 
 interface PersonalPortfolioMetadata<T extends SocialMediaLinks> {
   author: string;
+  authorBlog: string;
   authorImageUrl: string;
   socialMedia: T;
 }
@@ -24,6 +25,7 @@ interface PersonalPortfolioMetadata<T extends SocialMediaLinks> {
 export const personalMetadata: PersonalPortfolioMetadata<SocialMediaLinks> = {
   author: 'Vo Thanh Luan',
   authorImageUrl: 'https://imgur.com/wnuKAT5.jpg',
+  authorBlog: 'https://ciara-blog.netlify.app/',
   socialMedia: {
     github: 'https://github.com/s3822042',
     linkedin: 'https://www.linkedin.com/in/vo-thanh-luan/',

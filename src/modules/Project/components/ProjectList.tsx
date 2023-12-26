@@ -14,4 +14,4 @@ async function ProjectList() {
   );
 }
 
-export default ProjectModel;
+export default ProjectList;
