@@ -40,7 +40,7 @@ function Dialog(props: PropsWithChildren<Props>) {
           className
         ])}
       >
-        <div className="flex justify-between items-center mb-3 font-semibold">
+        <div className="mb-3 flex items-center justify-between font-semibold">
           {typeof title !== 'string' ? title : (
             <p className="text-lg">{title}</p>
           )}

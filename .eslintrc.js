@@ -1,12 +1,15 @@
 module.exports = {
   'parser': '@typescript-eslint/parser',
   'plugins': [
-    '@typescript-eslint'
+    '@typescript-eslint',
+    'prettier'
   ],
   'extends': [
     'next',
     'next/core-web-vitals',
     'eslint:recommended',
+    'prettier',
+    'plugin:tailwindcss/recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended'
   ],
@@ -37,7 +40,6 @@ module.exports = {
       'prop': 'ignore'
     }],
 
-    /** @see https://medium.com/weekly-webtips/how-to-sort-imports-like-a-pro-in-typescript-4ee8afd7258a */
     'import/no-unresolved': 'error',
     'import/order': [
       'error',
@@ -57,7 +59,6 @@ module.exports = {
         }
       }
     ],
-    /** */
 
     '@typescript-eslint/semi': 'error',
     '@typescript-eslint/type-annotation-spacing': 'error',

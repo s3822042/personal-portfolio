@@ -5,10 +5,10 @@
   "author": "Vo Thanh Luan <paulluanvothanh@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gadingnst/fullstack-next-template.git"
+    "url": "git+https://https://github.com/s3822042/personal-portfolio.git"
   },
   "bugs": {
-    "url": "https://github.com/gadingnst/fullstack-next-template/issues"
+    "url": "https://github.com/s3822042/personal-portfolio/issues"
   },
   "packageManager": "npm@9.7.2",
   "engines": {
@@ -20,13 +20,13 @@
     "start": "next start",
     "prepare": "husky install",
     "lint": "tsc --noEmit && eslint src --ignore-pattern 'src/public' --max-warnings 0",
-    "lint:fix": "tsc --noEmit && eslint src --ignore-pattern 'src/public' --fix"
+    "lint:fix": "tsc --noEmit && eslint src --ignore-pattern 'src/public' --ignore-path .gitignore --ext .js,.ts,.tsx --fix"
   },
   "dependencies": {
     "mongodb": "^6.2.0",
-    "next": "14.0.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-lazy-load-image-component": "^1.6.0"
   },
   "devDependencies": {
@@ -41,6 +41,9 @@
     "clsx": "^2.0.0",
     "eslint": "^8.53.0",
     "eslint-config-next": "^14.0.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "eslint-plugin-tailwindcss": "^3.13.0",
     "husky": "^8.0.3",
     "postcss": "^8.4.31",
     "postcss-import": "^15.1.0",

@@ -14,10 +14,6 @@ export interface Props extends HTMLAttributes<HTMLDivElement> {
   onClick?: () => void;
 }
 
-/**
- * Base Component to create Modal
- * See `Dialog` component for example usage
- */
 function Overlay(props: PropsWithChildren<Props>) {
   const {
     show,

@@ -12,4 +12,4 @@ export const SECRET_APP_KEY = process.env.SECRET_APP_KEY;
 
 /** Custom ENV */
 export const IS_DEV = NODE_ENV !== 'production';
-export const SITE_NAME = 'Fullstack Next.js Template';
+export const SITE_NAME = 'Vo Thanh Luan - Personal Portfolio';

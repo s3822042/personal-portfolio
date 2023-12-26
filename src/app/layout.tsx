@@ -4,7 +4,6 @@ import { Inter } from 'next/font/google';
 import { FC, PropsWithChildren } from 'react';
 
 import { SITE_NAME } from '@/configs/env';
-import GitHubBadge from '@/packages/components/base/Floatings/GithubBadge';
 import { withMetadata } from '@/packages/utils/metadata';
 
 const inter = Inter({
@@ -28,7 +27,6 @@ const RootLayout: FC<PropsWithChildren> = ({ children }) => {
   return (
     <html lang="en" className={inter.variable}>
       <body className="font-sans">
-        <GitHubBadge username="gadingnst" repoName="fullstack-next-template" />
         {children}
       </body>
     </html>

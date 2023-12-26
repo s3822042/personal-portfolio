@@ -29,9 +29,9 @@ function AboutWrapper(props: PropsWithChildren<Props>) {
   });
 
   return (
-    <div className="flex justify-center items-center w-full mb-10">
+    <div className="mb-10 flex w-full items-center justify-center">
       <main className="mt-10">
-        <h1 className="text-center text-xl mb-10">
+        <h1 className="mb-10 text-center text-xl">
           {maintainer || 'Loading...'}
         </h1>
 
@@ -45,7 +45,7 @@ function AboutWrapper(props: PropsWithChildren<Props>) {
           />
         </div>
 
-        <div className="flex items-center justify-center my-8 flex-col">
+        <div className="my-8 flex flex-col items-center justify-center">
           <p>
             Passed Query:
           </p>
@@ -53,7 +53,7 @@ function AboutWrapper(props: PropsWithChildren<Props>) {
             {JSON.stringify(searchParams)}
           </p>
           <Message messages={searchParams.text?.toString()} />
-          <Link href="/" className="text-fuchsia-400 text-center mt-5">
+          <Link href="/" className="mt-5 text-center text-fuchsia-400">
             Back to Homepage
           </Link>
         </div>
